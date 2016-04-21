@@ -1,0 +1,25 @@
+.app {
+  nav :global(.fa) {
+    font-size: 2em;
+    line-height: 20px;
+  }
+}
+.navbar {
+    font-family: "Avenir Next", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    border-bottom-width: 2px;
+}
+.navbar-default {
+    background-color: #f5da55;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+#navigation li a,#header .navbar-header a{
+    color:#FFF;
+}
+#navigation li a:hover{ 
+    background-color:#fed136
+}
+

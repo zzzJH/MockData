@@ -1,0 +1,66 @@
+.seaarchContainer {
+    margin-top: 70px;
+    font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+    h1 {
+        text-indent: 6px;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+
+    }
+    h2 {
+         text-indent: 6px;
+        font-family: inherit;
+        font-weight: 400;
+        line-height: 1.1;
+        color: inherit;
+    }
+    .portlet {
+        .portlet-title {
+            .collapse {
+                background-image: url(portlet-collapse-icon-white.png);
+            }
+        }
+        .portlet-body {
+            label {
+                font-weight: bold;
+            }
+            input {
+                text-indent: 4px;
+            }
+            .help-block {
+                position: absolute;
+                margin: 2px 0 0 0;
+                opacity: 0;
+                font-size: 13px;
+            }
+            .results {
+                margin-top: 20px;
+                h4 {
+                    color: #0f6ab4;
+                }
+                .url {
+                    font-size: 16px;
+                    line-height: 32px;
+                    font-family: "Anonymous Pro", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+                    text-indent: 12px;
+                    border-radius: 4px;
+                }
+                pre {
+                    background-color: #fcf6db;
+                    overflow-y: auto;
+                    max-height: 400px;
+                    code {
+                        border: none;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+    .objectAll,
+    .objectSingle {
+        display: none;
+    }
+}

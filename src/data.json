@@ -1,0 +1,21 @@
+{
+    "router": {
+      "routes": [],
+      "params": {},
+      "location": {
+        "pathname": "/child",
+        "search": "",
+        "hash": "",
+        "state": null,
+        "action": "POP",
+        "key": null
+      },
+      "components": []
+    },
+    "auth": {
+        "loaded": true,
+        "loading": false,
+        "user": null
+    },
+    "form": {}
+}
