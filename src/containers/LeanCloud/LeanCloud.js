@@ -48,10 +48,10 @@ export default class LeanCloud extends Component {
                                      </code>
                                    </pre>
                               </div>
-                              <div className="todo-tasklist-controls pull-left">
+                              {/*<div className="todo-tasklist-controls pull-left">
                                   <span className="todo-tasklist-date"><i className="fa fa-calendar"></i></span>
                                   <span className="todo-tasklist-badge badge badge-roundless" id={i.Id} onClick={this.handleDelete.bind(this)}>delete</span>
-                              </div>
+                              </div>*/}
                           </div>
                         )
                     }

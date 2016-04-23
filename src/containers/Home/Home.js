@@ -49,7 +49,7 @@ export default class Home extends Component {
                                     <Link to="/configTable">配置表</Link>
                                 </li>
                                 <li>
-                                    <Link to="/about">关于我们</Link>
+                                    <Link to="/about">关于我</Link>
                                 </li>
                             </ul>
                             <ul className="nav navbar-nav navbar-right">
@@ -105,13 +105,7 @@ export default class Home extends Component {
 
                     <hr className="featurette-divider"/>
 
-                    <footer>
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <p>Copyright --前端架构组--超能全栈队</p>
-                            </div>
-                        </div>
-                    </footer>
+                   
 
                 </div>
             </div>
